@@ -37,3 +37,6 @@ task sourcesJar(type: Jar) {
     classifier = 'sources'
     from sourceSets.main.java, sourceSets.main.resources
 }
+
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.cleekee'
